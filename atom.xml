@@ -3,11 +3,11 @@
   <title>帕克的部落格</title>
   
   
-  <link href="http://kunecho.top/atom.xml" rel="self"/>
+  <link href="https://parkerindustry.github.io/atom.xml" rel="self"/>
   
-  <link href="http://kunecho.top/"/>
+  <link href="https://parkerindustry.github.io/"/>
   <updated>2024-09-26T09:59:18.000Z</updated>
-  <id>http://kunecho.top/</id>
+  <id>https://parkerindustry.github.io/</id>
   
   <author>
     <name>Parker</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>自建zerotier-one服务器，随时随地访问内网设备</title>
-    <link href="http://kunecho.top/2b9f0a5e.html"/>
-    <id>http://kunecho.top/2b9f0a5e.html</id>
+    <link href="https://parkerindustry.github.io/2b9f0a5e.html"/>
+    <id>https://parkerindustry.github.io/2b9f0a5e.html</id>
     <published>2024-09-26T09:59:39.000Z</published>
     <updated>2024-09-26T09:59:18.000Z</updated>
     
@@ -33,17 +33,17 @@
     
     
     
-    <category term="网络" scheme="http://kunecho.top/categories/%E7%BD%91%E7%BB%9C/"/>
+    <category term="网络" scheme="https://parkerindustry.github.io/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="网络" scheme="http://kunecho.top/tags/%E7%BD%91%E7%BB%9C/"/>
+    <category term="网络" scheme="https://parkerindustry.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
   <entry>
     <title>使用PicGo+github+cloudflare打造个人私有图床</title>
-    <link href="http://kunecho.top/308a38be.html"/>
-    <id>http://kunecho.top/308a38be.html</id>
+    <link href="https://parkerindustry.github.io/308a38be.html"/>
+    <id>https://parkerindustry.github.io/308a38be.html</id>
     <published>2024-09-25T05:36:30.000Z</published>
     <updated>2024-09-25T05:03:26.000Z</updated>
     
@@ -60,19 +60,19 @@
     
     
     
-    <category term="建站" scheme="http://kunecho.top/categories/%E5%BB%BA%E7%AB%99/"/>
+    <category term="建站" scheme="https://parkerindustry.github.io/categories/%E5%BB%BA%E7%AB%99/"/>
     
     
-    <category term="cloudflare" scheme="http://kunecho.top/tags/cloudflare/"/>
+    <category term="cloudflare" scheme="https://parkerindustry.github.io/tags/cloudflare/"/>
     
-    <category term="github" scheme="http://kunecho.top/tags/github/"/>
+    <category term="github" scheme="https://parkerindustry.github.io/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>思源笔记，自己的数据自己掌握</title>
-    <link href="http://kunecho.top/99c2ad2f.html"/>
-    <id>http://kunecho.top/99c2ad2f.html</id>
+    <link href="https://parkerindustry.github.io/99c2ad2f.html"/>
+    <id>https://parkerindustry.github.io/99c2ad2f.html</id>
     <published>2024-09-20T05:22:51.000Z</published>
     <updated>2024-09-20T05:23:02.000Z</updated>
     
@@ -86,19 +86,19 @@
     
     
     
-    <category term="nas" scheme="http://kunecho.top/categories/nas/"/>
+    <category term="nas" scheme="https://parkerindustry.github.io/categories/nas/"/>
     
-    <category term="docker" scheme="http://kunecho.top/categories/nas/docker/"/>
+    <category term="docker" scheme="https://parkerindustry.github.io/categories/nas/docker/"/>
     
     
-    <category term="笔记" scheme="http://kunecho.top/tags/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://parkerindustry.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://kunecho.top/4a17b156.html"/>
-    <id>http://kunecho.top/4a17b156.html</id>
+    <link href="https://parkerindustry.github.io/4a17b156.html"/>
+    <id>https://parkerindustry.github.io/4a17b156.html</id>
     <published>2024-09-20T04:30:27.000Z</published>
     <updated>2024-09-20T04:30:30.000Z</updated>
     
