@@ -137,4 +137,22 @@ linux系统正好我家有一台nas，就准备用它来实现了；
         <tag>网络</tag>
       </tags>
   </entry>
+  <entry>
+    <title>华为多屏协同win11输入法皮肤问题</title>
+    <url>/601dcdfa.html</url>
+    <content><![CDATA[用过华为多屏协同的用户都知道，win11系统中会出现输入法皮肤变回win10的情况，我在网上搜索了很多，基本上都是需要火绒来锁注册表，实际上，锁注册表完全可以通过命令行实现。
+锁注册表的命令如下，通过powershell运行：
+# 定义需要锁定的注册表项路径$key = "HKLM:\SOFTWARE\Example"# 获取当前注册表项的访问控制列表（ACL）$acl = Get-Acl $key# 创建一条新的访问规则：拒绝所有用户（Everyone）的 "SetValue" 权限$rule = New-Object System.Security.AccessControl.RegistryAccessRule("Everyone", "SetValue", "Deny")# 将规则添加到 ACL 中$acl.AddAccessRule($rule)# 将修改后的 ACL 重新应用到注册表项Set-Acl $key $acl
+
+针对华为输入法的问题，可以直接复制粘贴以下指令运行：
+# 定义注册表路径$regPath = "HKCU:\Software\Microsoft\Input\Tsf\Tsf3Override\{81d4e9c9-1d3b-41bc-9e6c-4b40bf79e35e}"# 获取当前 ACL（访问控制列表）$acl = Get-Acl $regPath# 创建拒绝规则：禁止 "Everyone" 修改 "NoTsf3Override2" 的值$denyRule = New-Object System.Security.AccessControl.RegistryAccessRule(    "Everyone",                # 目标用户/组（Everyone 表示所有用户）    "SetValue",                # 禁止修改值    "Deny"                     # 拒绝权限)# 将规则添加到 ACL$acl.AddAccessRule($denyRule)# 应用新的 ACLSet-Acl -Path $regPath -AclObject $acl
+
+# 定义注册表路径$regPath = "HKCU:\Software\Microsoft\CTF\TIP\{81D4E9C9-1D3B-41BC-9E6C-4B40BF79E35E}"# 获取当前 ACL（访问控制列表）$acl = Get-Acl $regPath# 创建拒绝规则：禁止 "Everyone" 修改 "NoTsf3Override2" 的值$denyRule = New-Object System.Security.AccessControl.RegistryAccessRule(    "Everyone",                # 目标用户/组（Everyone 表示所有用户）    "SetValue",                # 禁止修改值    "Deny"                     # 拒绝权限)# 将规则添加到 ACL$acl.AddAccessRule($denyRule)# 应用新的 ACLSet-Acl -Path $regPath -AclObject $acl
+
+本博客只进行记录，请谨慎运行命令行，出现问题可以咨询ai解决
+]]></content>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
 </search>
